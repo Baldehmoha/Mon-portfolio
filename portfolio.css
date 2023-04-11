@@ -1,0 +1,186 @@
+body{https: //fonts.google.com/?preview.text=noto%20sans%20jp&preview.text_type=custom#:~:text=%40import%20url(%27https%3A//fonts.googleapis.com/css2%3F%20family%3D%20Roboto%3Awght%40500%20%26%20display%3Dswap%27)%3B
+    padding: 0 2%;
+    margin: 0;
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: sticky;
+    top: 0; 
+}
+nav .profil{
+    display: flex;
+    align-items: center;
+}
+nav .profil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+nav .profil h1{
+    margin-left: 10px;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 60px;
+    cursor: pointer;
+    border-bottom: 1px solid blanchedalmond;
+}
+nav ul li:hover{
+    border-bottom-color: black;
+}
+.btn .button-contact{
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid blanchedalmond;
+}
+.page-content{
+    margin: 4%;
+}
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+}
+.page-content header p{
+    line-height: 30px;
+    color: #818181;
+}
+.section-formation{
+    margin-top: 2%;
+   
+    
+}
+.formations1{
+    background-color: black;
+    width: 250px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+.formations{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section-competence{
+    margin: 4%;
+}
+
+.competence1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bar-pourcentage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar{
+    width: 300px;
+    height: 25px;
+    background-color: rgb(16, 161, 238);
+}
+.progress-bar{
+    width: 250px;
+    height: 20px;
+    background-color: red;
+    margin-top: 20px;
+}
+.pourcentage{
+    margin-left: -35px;
+}
+.sub-title{
+    margin: 4%;
+}
+.qualités-list{
+    width: 90%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 900px);
+    background-color: blanchedalmond;
+}
+.qualités-list img{
+    width: 250px;
+    height: 100px;
+}
+.Section-Expérience{
+    margin: 4%;
+}
+.Experience1{
+    background-color: gray;
+    width: 400px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+.Experience{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Section-Reférence{
+    margin: 4%;
+}
+.Reférence1{
+    width: 300px;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    height: 150px;
+    border-radius: 10px;
+}
+.Reférence{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    margin-top: 4%;
+    margin: 4%;
+}
+.colonne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.colonne p{
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+.colonne p:hover{
+    color: blanchedalmond;
+}
+
